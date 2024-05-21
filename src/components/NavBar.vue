@@ -69,10 +69,22 @@ export default {
   font-size: (90%, 1.3rem);
 }
 
+.nav-list li:hover {
+  background: var(--deep-color);
+  opacity: 0.7;
+}
+
 .btn-light {
   border-radius: 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--par-color);
   background: #d1fae5;
   padding: 12px 24px;
   border: none;
+}
+.btn-light:hover {
+  background: var(--deep-color);
+  color: #fff;
 }
 </style>

@@ -73,7 +73,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1240px;
+  max-width: 1400px;
   overflow-x: scroll;
 }
 </style>

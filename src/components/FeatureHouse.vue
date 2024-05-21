@@ -10,8 +10,12 @@
           <button class="btn"><img src="/public/images/ic_round-villa.png" />Villa</button>
           <button class="btn"><img src="/public/images/ic_round-apartment.png" />Apartment</button>
           <div class="btn-side">
-            <button class="btn-side-left"><i class="las la-angle-left"></i></button>
-            <button class="btn-side-right"><i class="las la-angle-right"></i></button>
+            <button class="btn-side-direction btn-side-left">
+              <i class="las la-angle-left"></i>
+            </button>
+            <button class="btn-side-direction btn-side-right">
+              <i class="las la-angle-right"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -100,19 +104,23 @@ export default {
   align-items: center;
   padding: 0.7rem 1.5rem;
   border-radius: 32px;
-  /* gap: 0.3rem; */
-  gap: 3%;
+  gap: 0.3rem;
   background: transparent;
   border: 1px solid #e0e3eb;
 }
 
 .housing-props-container {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 4em;
   padding-top: 40px;
+}
+.btn-side-direction:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .btn-side {

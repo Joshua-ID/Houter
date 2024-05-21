@@ -28,13 +28,12 @@ export default {
 }
 
 .housing-image-container {
-  max-width: 450px;
-  height: 250px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 .building {
   object-fit: cover;
   width: 100%;
+  min-width: 14rem;
   height: 250px;
   border-radius: 23px;
 }

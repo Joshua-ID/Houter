@@ -163,4 +163,8 @@ export default {
   border: none;
   border-radius: 32px;
 }
+.contact-box-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 </style>

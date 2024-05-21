@@ -108,6 +108,11 @@ export default {
   border-radius: 32px;
   border: none;
 }
+.search-box-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 .hero-right-section img {
   width: 55%;
   height: 560px;

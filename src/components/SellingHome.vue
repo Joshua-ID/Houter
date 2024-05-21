@@ -78,7 +78,7 @@ export default {
 .cliper2 {
   position: absolute;
   top: 20px;
-  left: -520px;
+  right: 440px;
   z-index: -50;
 }
 .headline-container {
